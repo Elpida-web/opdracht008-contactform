@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contactformulier</title>
+</head>
+
+<body>
+
+
+    <form name="contact" method="POST" data-netlify="true">
+
+
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Emailadres: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+        </p>
+        <p>
+            <label>Leeftijd: <input type="number" name="number" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum: <input type="date" name="date"></label>
+        </p>
+        <p> <label>Geslacht</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Man</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Vrouw</label><br>
+        </p>
+        <p>
+            <label>Favouriete cuisine:</label>
+            <input type="checkbox" id="frans" name="cuisine" value="frans">
+            <label for="frans">Frans</label>
+            <input type="checkbox" id="italiaans" name="cuisine" value="italiaans">
+            <label for="italiaans">Italiaans</label>
+            <input type="checkbox" id="spaans" name="cuisine" value="spaans">
+            <label for="spaans">Spaans</label>
+            <input type="checkbox" id="arabisch" name="cuisine" value="arabisch">
+            <label for="arabisch">Arabisch</label>
+        </p>
+        <label>Favoriete kleur short:</label>
+        <input type="color" name="color">
+        <p>
+            <label>Biografie: <textarea></textarea></label>
+        </p>
+        <p>
+            <label>Upload je laatste recept:</label>
+            <button type="upload">Upload een file</button>
+        </p>
+        <nav><a href="#">Mijn recpeten</a>
+        </nav>
+        <p>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+
+
+
+    </form>
+
+    <nav><a href="index.html">Home</a>
+    </nav>
+</body>
+
+</html>
